@@ -1,0 +1,6 @@
+services:
+  ghostbot:
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
